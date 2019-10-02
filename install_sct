@@ -28,6 +28,11 @@
 # TODO add some doc to the installer
 # TODO: remove python folder if not empty
 
+# Miniconda version
+#MINICONDA=latest   # The original choice
+MINICONDA=4.6.14    # Workaround for a conda installer bug https://github.com/ContinuumIO/anaconda-issues/issues/11148
+
+
 # functions
 # ========================================================================
 # Where tmp file are stored
@@ -438,11 +443,11 @@ $cmd
 
 case $OS in
 linux*)
-  download $TMP_DIR/miniconda.sh https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
-  ;;
+download ${TMP_DIR}/miniconda.sh https://repo.continuum.io/miniconda/Miniconda3-${MINICONDA}-Linux-x86_64.sh
+;;
 osx)
-  download $TMP_DIR/miniconda.sh https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
-  ;;
+download ${TMP_DIR}/miniconda.sh https://repo.continuum.io/miniconda/Miniconda3-${MINICONDA}-MacOSX-x86_64.sh
+;;
 esac
 
 # run conda installer
@@ -458,7 +463,7 @@ else
 fi
 
 # create py3.6 venv (for Keras/TF compatibility with Centos7, see issue #2270)
-yes | python/bin/conda create -n venv_sct python=3.6
+yes | python/bin/conda create --copy -n venv_sct python=3.6
 
 # activate miniconda
 source python/etc/profile.d/conda.sh

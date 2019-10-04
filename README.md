@@ -58,7 +58,7 @@ procedures.
 
 The simplest way to install SCT is to do it via a stable release. First, download the [latest release](https://github.com/neuropoly/spinalcordtoolbox/releases). Major changes to each release are listed [here](CHANGES.md).
 
-N.B. We currently cover OS X (10.8+) and Debian/Ubuntu/Fedora/RedHat/CentOS platforms. If you have another OS, please see [Installation with Docker](#installation-with-docker).
+N.B. We currently cover OS X (10.12 and above) and Debian/Ubuntu/Fedora/RedHat/CentOS platforms. If you have another OS, please see [Installation with Docker](#installation-with-docker).
 
 If you have 10.7 or less, the only incompatibility is with ANTs, which you can compile on your station and then copy the binaries under SCT installation as explained [here](https://github.com/neuropoly/spinalcordtoolbox/wiki/binaries).
 
@@ -205,6 +205,7 @@ alt="Fsleyes integration" width="240" height="180" border="10" /></a>
 - [Huber et al. Dorsal and ventral horn atrophy is associated with clinical outcome after spinal cord injury. Neurology 2018](https://www.ncbi.nlm.nih.gov/pubmed/29592888)
 - [Dostal et al. Analysis of diffusion tensor measurements of the human cervical spinal cord based on semiautomatic segmentation of the white and gray matter. J Magn Reson Imaging 2018](https://www.ncbi.nlm.nih.gov/pubmed/29707834)
 - [Calabrese et al. Postmortem diffusion MRI of the entire human spinal cord at microscopic resolution. Neuroimage Clin. 2018](https://www.ncbi.nlm.nih.gov/pubmed/29876281)
+- [Paquin et al. Spinal Cord Gray Matter Atrophy in Amyotrophic Lateral Sclerosis. AJNR 2018](http://www.ajnr.org/content/39/1/184)
 - [Combès et al. Focal and diffuse cervical spinal cord damage in patients with early relapsing-remitting MS: A multicentre magnetisation transfer ratio study. Multiple Sclerosis Journal. 2018](https://www.ncbi.nlm.nih.gov/m/pubmed/29909771/)
 - [Martin et al. Monitoring for myelopathic progression with multiparametric quantitative MRI. PLoS One. 2018 Apr 17;13(4):e0195733](https://www.ncbi.nlm.nih.gov/pubmed/29664964)
 - [Martin et al. Can microstructural MRI detect subclinical tissue injury in subjects with asymptomatic cervical spinal cord compression? A prospective cohort study. BMJ Open. 2018 Apr 13;8(4):e019809](https://www.ncbi.nlm.nih.gov/pubmed/29654015)

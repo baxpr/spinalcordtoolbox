@@ -29,8 +29,8 @@
 # TODO: remove python folder if not empty
 
 # Miniconda version
-MINICONDA=latest   # The original choice
-#MINICONDA=4.6.14    # Workaround for a conda installer bug https://github.com/ContinuumIO/anaconda-issues/issues/11148
+#MINICONDA=latest   # The original choice
+MINICONDA=4.6.14    # Workaround for a conda installer bug https://github.com/ContinuumIO/anaconda-issues/issues/11148
 
 
 # functions

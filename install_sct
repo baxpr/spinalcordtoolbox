@@ -31,6 +31,7 @@
 # Miniconda version
 #MINICONDA=latest   # The original choice
 MINICONDA=4.6.14    # Workaround for a conda installer bug https://github.com/ContinuumIO/anaconda-issues/issues/11148
+#MINICONDA=4.7.12   # Most recent 20191010
 
 
 # functions
